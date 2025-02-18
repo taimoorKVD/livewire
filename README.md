@@ -1,66 +1,128 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+Here’s a **user-friendly and attractive README** for your Laravel 11 project with Livewire, MySQL, Breeze authentication, product management, filtering, and pagination. 🚀
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+---
 
-## About Laravel
+### 🛍️ **Laravel 11 E-Commerce Product Management System**
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Welcome to the **Laravel 11 Product Management System**! This project is built using **Laravel 11** and **Livewire** to provide a seamless, real-time experience. It includes **authentication (Breeze)**, **product listing & management**, **filtering**, **pagination**, and **cart functionality**—all powered by **MySQL**.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+---
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## 🚀 **Features**
 
-## Learning Laravel
+✅ **Authentication** – Secure login & registration using Laravel **Breeze** 🔐  
+✅ **Livewire-Powered UI** – Real-time updates for a smooth user experience ⚡  
+✅ **Product Management** – List, add, remove, and manage products 🛒  
+✅ **Advanced Filtering** – Filter products by manufacturers and categories 🎯  
+✅ **Pagination Support** – Efficiently load products page by page 📄  
+✅ **Optimized Loading** – Facebook-like skeleton loaders for a great UX 💨  
+✅ **Fast Image Loading** – Uses `lazy loading` & `async decoding` for instant images 🚀
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+---
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+## 🏗️ **Tech Stack**
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+🔹 **Backend:** Laravel 11  
+🔹 **Frontend:** Blade with Tailwind CSS  
+🔹 **Livewire:** Interactive UI without page reloads  
+🔹 **Database:** MySQL  
+🔹 **Authentication:** Laravel Breeze  
+🔹 **Real-Time UI:** Livewire & Alpine.js
 
-## Laravel Sponsors
+---
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+## 🎯 **Installation Guide**
 
-### Premium Partners
+Follow these steps to set up the project on your local machine:
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+### 1️⃣ **Clone the Repository**
+```sh
+git clone https://github.com/taimoorKVD/livewire.git
+cd livewire
+```
 
-## Contributing
+### 2️⃣ **Install Dependencies**
+```sh
+composer install
+npm install
+```
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+### 3️⃣ **Set Up Environment Variables**
+```sh
+cp .env.example .env
+```
+Update your **.env** file with your database credentials:
+```env
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=your_database
+DB_USERNAME=your_username
+DB_PASSWORD=your_password
+```
 
-## Code of Conduct
+### 4️⃣ **Run Migrations & Seeders**
+```sh
+php artisan migrate --seed
+```
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+### 5️⃣ **Generate Application Key**
+```sh
+php artisan key:generate
+```
 
-## Security Vulnerabilities
+### 6️⃣ **Run the Application**
+```sh
+php artisan serve
+```
+Now, visit **http://127.0.0.1:8000** in your browser. 🎉
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+---
 
-## License
+## 🎮 **Usage**
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+🔹 **Register/Login** – Create an account or log in using Breeze authentication.  
+🔹 **View Products** – Browse a list of products with pagination.  
+🔹 **Filter Products** – Use checkboxes to filter by manufacturers.  
+🔹 **Add/Remove from Cart** – Manage your shopping cart without page reloads.  
+🔹 **Admin Panel** – Manage products (if admin access is implemented).
+
+---
+
+## 🛠️ **Customization**
+
+### 🎨 Change Pagination Limit
+Modify the `perPage` value in your **Livewire component**:
+```php
+public int $perPage = 6;
+```
+
+### 🔍 Modify Filtering Logic
+Update the `selected` array to refine product filtering:
+```php
+public array $selected = ['manufacturers' => []];
+```
+
+### 🏷️ Customize UI
+All UI elements use **Tailwind CSS**. Modify styles in **resources/views/components/**
+
+---
+
+## 🏆 **Contributing**
+
+Want to improve this project? Feel free to:  
+📌 **Fork the repository**  
+📌 **Create a new branch (`feature/your-feature`)**  
+📌 **Submit a Pull Request**
+
+---
+
+## 📝 **License**
+
+This project is licensed under the **MIT License**.
+
+👨‍💻 Made with ❤️ using Laravel & Livewire!
+
+---
+
+Let me know if you need any adjustments! 🚀🔥
