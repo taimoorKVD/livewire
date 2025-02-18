@@ -1,7 +1,3 @@
-Here’s a **user-friendly and attractive README** for your Laravel 11 project with Livewire, MySQL, Breeze authentication, product management, filtering, and pagination. 🚀
-
----
-
 ### 🛍️ **Laravel 11 E-Commerce Product Management System**
 
 Welcome to the **Laravel 11 Product Management System**! This project is built using **Laravel 11** and **Livewire** to provide a seamless, real-time experience. It includes **authentication (Breeze)**, **product listing & management**, **filtering**, **pagination**, and **cart functionality**—all powered by **MySQL**.
